@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+  --color-neutral-0:  #030707;
+  --color-neutral-10: #009092;
+  --color-neutral-30: #ffffff;
+  --color-neutral-40: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* outline: 0; */
+  /* font-family: 'Inter', sans-serif; */
+  /* box-sizing: border-box; */
+  /* letter-spacing: 1px; */
+}
+
+.baner {
+  width: 100%;
+  height: 190px;
+  background-image: url('../img/idx_banner02.jpg');
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -100;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.baner>.content {
+  padding: 20px;
+}
+
+#baner_lazer {
+    background-image: url('./imagens/categorias/categorias_escuras/lazer.jpg');
+}
+
+#baner_hotelaria {
+    background-image: url('./imagens/categorias/categorias_escuras/hotelaria.jpg');
+}
+
+#baner_gastronomia {
+    background-image: url('./imagens/categorias/categorias_escuras/gastronomia.jpg');
+}
+
+#baner_atracoes {
+    background-image: url('./imagens/categorias/categorias_escuras/atrações.jpg');
+}
+
+#baner_eventos {
+    background-image: url('./imagens/categorias/categorias_escuras/eventos.jpg');
+}
+
+#baner_servicos {
+    background-image: url('./imagens/categorias/categorias_escuras/serviços.jpg');
+}
+
+header {
+    width: 100%;
+    background-color: #009092;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 20px 10px #00000050;
+    z-index: 200;
+    margin: auto;
+}
+
+.slide {
+  display: none;
+  max-width: 100%;
+}
+
+.content>h2 {
+  color: #fff;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content>a>h2 {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #009092;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    height: auto;
+}
+
+header>.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content>input {
+    min-width: 110px;
+    border-radius: 50px;
+    border: transparent;
+    height: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 0.7em;
+}
+
+#ponto_description {
+    max-width: 1000px;
+    padding: 15px ;
+    box-sizing: border-box;
+    margin: auto
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #000000bb;
+    z-index: 10;
+    opacity: 1;
+}
+h5{
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main {
+  height: 80vh;
+} */
+
+main {
+  height: 100%;
+  max-width: 2200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main>.content {
+    padding: 10px;
+}
+
+
+.categorias {
+    margin: 20px 0;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5%;
+    overflow: auto;
+}
+
+.categoria {
+    position: relative;
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid;; */
+    border-radius: 10px;
+}
+
+.categoria_img {
+    min-width: 140px;
+    height: 100px;
+    /* height: 150px; */
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 1px #0000003f;
+}
+
+.img {
+  background: url('../img/img-gastronomia.jpg') #000;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  background-position: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+.img button {
+  all: unset;
+}
+
+/* #lazer_img {
+    background-image: url('../imagens/categorias/lazer.jpg');
+}
+
+#hotelaria_img {
+    background-image: url('../imagens/categorias/hotelaria.jpg');
+}
+
+#gastronomia_img {
+    background-image: url('../imagens/categorias/gastronomia.jpg');
+}
+
+#atracoes_img {
+    background-image: url('../imagens/categorias/atrações.jpg');
+}
+
+#servicos_img {
+    background-image: url('../imagens/categorias/serviços.jpg');
+}
+
+#eventos_img {
+    background-image: url('../imagens/categorias/eventos.jpg');
+} */
+
+/* .categoria>h3{
+    position: absolute;
+    bottom: -25px;
+}
+*/
+
+.categoria>p {
+    color: #0000007a;
+}
+
+.content>h3 {
+    font-size: 1.6em;
+    color: #009092;
+}
+
+.contatos_ponto{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.contatos_ponto>a>img{
+    width: 50px;
+}
+
+.categoria>h3 {
+    margin: 10px 0;
+}
+
+.categoria h3 {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.mapa {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.imagens_ponto>img{
+    width: 100% 
+}
+
+.mapa>h3 {
+    margin: 20px 0;
+}
+
+.camada_e {
+    width: 100%;
+    height: 160px;
+    background-color: #000;
+}
+#p_description_ponto{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.line.line-sm {
+  margin: 2rem 0;
+  margin-top: -0%;
+}
+
+.line,
+.double-line {
+  clear: both;
+  position: relative;
+  width: 100%;
+  margin: 4rem 0;
+  border-top: 1px solid #EEE;
+}
+
+.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 0 !important;
+}
+
+iframe{
+    margin-bottom: 100px;
+    /* margin: auto; */
+    /* width: calc(100% - 10%); */
+}
+
+div {
+  display: block;
+}
+
+/* pontos gastronomia */
+
+#ponto_picanha_img{
+  background-image: url('./img/picanha.png');
+}
+#matheus_img{
+  background-image: url('./img/matheus.png');
+}
+#creme_mel_img{
+  background-image: url('./img/creme_mel.png');
+}
+#rei_acai_img{
+  background-image: url('./img/rei_acai.png');
+}
+#triuno_img{
+  background-image: url('./img/triuno.png');
+}
+#come_come_img{
+  background-image: url('./img/come_come.png');
+}
+#imperio_img{
+  background-image: url('./img/imperio_espetos.png');
+}
+#mais_sabor_img{
+  background-image: url('./img/mais_sabor.png');
+}
+#mistura_img{
+  background-image: url('./img/mistura_fina.png');
+}
+
+/* pontos hotelaria */
+
+#girassol_img {
+  background-image: url('./img/girassol.png');
+}
+
+#goldem_img {
+  background-image: url('./img/golden.png');
+}
+
+#jiripoca_img {
+  background-image: url('./img/jiripoca.png');
+}
+
+#serra_dourada_img {
+  background-image: url('./img//serrad.png');
+  background-position: bottom;
+}
+
+#triuno_img {
+  background-image: url('./img/triuno.png');
+}
+
+#toca_tucunare_img{
+  background-image: url('./img/toca_tucunare.jpg');
+}
+
+#imperio_img {
+  background-image: url('./img/imperio_espetos.png');
+}
+
+#mais_sabor_img {
+  background-image: url('./img/mais_sabor.png');
+}
+
+#mistura_img {
+  background-image: url('./img/mistura_fina.png');
+}
+
+.overview {
+  margin-top: -40px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #ffff;
+  width: 100%;
+}
+
+.overview h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.overview p {
+  font-size: 14px;
+  color: #646464;
+  line-height: 20px;
+  text-justify: center;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.overview {
+  width: 100%;
+  /* background-color: red; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+*,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+  background-color: #009092;
+  min-height: 200px;
+  box-sizing: border-box;
+}
+
+footer .containerf {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+footer .container {
+  margin-top: 10%;
+  display: flex;
+  color: white;
+}
+
+footer .containerf ul {
+  width: 25%;
+}
+
+footer .container ul {
+  width: 25%;
+}
+
+footer .containerf h3 {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+footer .container h3 {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+footer .containerf ul>p {
+  margin-bottom: 40px;
+}
+
+footer .container ul>p {
+  margin-bottom: 40px;
+}
+
+footer .containerf li {
+  margin: 10px 0;
+}
+
+footer .container li {
+  margin: 10px 0;
+}
+
+footer .containerf a {
+  color: white;
+}
+
+footer .container a {
+  color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 300px) {
+  body {
+      font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 1.2em;
+  }
+
+  .baner {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    padding-top: 50px;
+  }
+
+  .content>input {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width:450px) {
+  footer .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+
