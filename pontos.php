@@ -20,8 +20,7 @@
           if (mysqli_num_rows($result_pts) > 0) {
             while($row_pts = mysqli_fetch_assoc($result_pts)) {
         ?>
-              <!-- <a href="index.php?p=<?=strtolower($row_pts['loc_titulo'])?>"> -->
-              <a href="index.php?p=local">
+              <a href="index.php?p=local"> <!-- index.php?p=strtolower($row_pts['loc_titulo']) -->
                 <div class="categoria">
                   <!-- <div class="categoria_img" id="<?php // echo strtolower($row_pts['loc_titulo']) . '_img';?>"></div> -->
                   <div class="categoria_img" style="background-image: url('<?php echo './img/categorias/' . 
@@ -43,11 +42,11 @@
                 }
             }
           } else {
-            echo "Não foram encontrados pontos turísticos.";
+            echo "Não foram encontrados pontos turísticos da categoria.";
           }
-        ?>
+?>
         </div>
-        <?php
+<?php
       }
     } else {
       echo "Não foram encontradas categorias.";
