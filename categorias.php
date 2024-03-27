@@ -16,9 +16,9 @@
         while($row = mysqli_fetch_assoc($result)) { // Loop através dos resultados e exibe cada linha
           // echo "ID: " . $row["cat_id"] . " - Titulo: " . $row["cat_titulo"] . "<br>";
   ?>
-          <a href="index.php?p=<?=strtolower($row['cat_titulo'])?>"> <!-- <a href="./categorias/gastronomia.html"> -->
+          <a href="index.php?p=GASTRONOMIA"> <!-- <a href="./categorias/gastronomia.html"> -->
             <div class="categoria">
-              <div class="categoria_img" style="background-image: url('<?php echo './img/categorias/' . strtolower($row['cat_tag']) . '/thumbs/img_tb01.jpg';?>')"></div>
+              <div class="categoria_img" style="background-image: url('<?php echo './img/categorias/' . strtolower($row['cat_tag']) . '/thumbs/imagem01.jpg';?>')"></div>
               <h3><?=strtoupper($row['cat_titulo'])?></h3>
               <p><?= $row['cat_descricao'] ?></p>
             </div>

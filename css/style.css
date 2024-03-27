@@ -139,13 +139,13 @@ h5{
   height: 80vh;
 } */
 
-main {
+/* main {
   height: 100%;
   max-width: 2200px;
   margin: auto;
   display: flex;
   flex-direction: column;
-}
+} */
 
 main>.content {
     padding: 10px;

@@ -1,7 +1,7 @@
 <header>
   <div class="content">
     <a href="index.php?p=home">
-      <h2>Turismo FSO</h2>
+      <h2>TESTE FSO</h2>
     </a>
     <input type="text" placeholder="Procurar pontos turisticos">
   </div>
