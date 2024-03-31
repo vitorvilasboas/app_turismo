@@ -1,32 +1,29 @@
 <footer>
-  <div id="footer_content" > <!-- class="container" -->
-    <div id="footer_contacts">
-      <h1 id="contato_id">Contatos</h1>
-      <p>formotur@gmail.com</p>
-      <p>Tocantins</p>
-      
+  <section class="content" > <!-- class="container" -->
+    <nav id="footer_contacts">
+      <h4>Contatos:</h4>
       <div id="footer_social_media"> <!-- class="redes sociais" -->
-        <a href="#" class="footer-link" id="instagram">
-          <i class="fa-brands fa-instagram"></i>
+        <a href="#" class="footer-link">
+          <img src="img/icones/instagram.png" alt="" id="instagram">
         </a>
 
-        <a href="#" class="footer-link" id="facebook">
-          <i class="fa-brands fa-facebook-f"></i>
+        <a href="#" class="footer-link">
+          <img src="img/icones/facebook.png" alt="" id="facebook">
         </a>
 
-        <a href="#" class="footer-link" id="whatsapp">
-          <i class="fa-brands fa-whatsapp"></i>
+        <a href="#" class="footer-link">
+          <img src="img/icones/wts.png" alt="" id="whatsapp">
         </a>
       </div>
-    </div>
+    </nav>
 
-    <ul class="footer-list">
-      <li><h3>Links úteis</h3></li>
-      <li><a href="#" class="footer-link">Home</a></li>
-      <li><a href="#" class="footer-link">Categora</a></li>
-      <li><a href="#" class="footer-link">Login</a></li>
-    </ul>
-
+    <nav>
+      <ul id="footer-list">
+        <li><h4>Links úteis:</h4></li>
+        <li><a href="#" class="footer-link">Home</a></li>
+        <li><a href="#" class="footer-link">Categorias</a></li>
+      </ul>
+    </nav>
     <!-- <ul class="footer-list">
       <li><h3>Suporte</h3></li>
       <li><a href="#" class="footer-link">FAQ</a></li>
@@ -34,19 +31,15 @@
       <li><a href="#" class="footer-link">Qualidades</a></li>
     </ul> -->
 
-    <div id="footer_subscribe">
-      <h3>Inscreva-se</h3>
-      <p>Digite seu e-mail para ser notificado sobre nossas soluções de notícias.</p>
-      <div id="input_group">
-        <input type="email" id="email">
-        <button>
-          <i class="fa-regular fa-envelope"></i>
-        </button>
+    <nav id="footer_subscribe">
+      <p>Quer ser notificado?</p>
+      <div class="inputdiv">
+        <input type="email" id="email" placeholder="Digite seu email" class="input">
+        <ion-icon name="send-sharp"></ion-icon>
       </div>
-    </div>
-  </div>
-
-  <div id="footer_copyright">
-    2024 &#169 Todos os direitos reservados
-  </div>
+    </nav>
+  </section>
 </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
