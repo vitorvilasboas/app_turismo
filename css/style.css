@@ -61,9 +61,9 @@
 
 header {
     width: 100%;
-    background-color: #000;
+    background-color: #000000;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
     box-shadow: 0px 1px 20px 10px #00000050;
     z-index: 200;
@@ -165,12 +165,14 @@ main>.content {
 
 
 .categorias {
-    margin: 20px 0;
+    margin: 15px 0;
+    width: 100%;
     justify-content: space-between;
     display: flex;
     flex-flow: row nowrap;
-    gap: 5%;
+    gap: 3%;
     overflow: auto;
+    /* border: 1px solid;; */
 }
 
 .categoria {
@@ -180,6 +182,13 @@ main>.content {
     padding: 10px;
     /* border: 1px solid;; */
     border-radius: 10px;
+    margin: 15px;
+    transition: .4s;
+}
+
+.categorias .categoria:hover{
+  transform: scale(1.05);
+  /* box-shadow: 0 0 8px #000000 ; */
 }
 
 .categoria_img {
@@ -260,7 +269,7 @@ main>.content {
 }
 
 .categoria>h3 {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .categoria h3 {
@@ -444,18 +453,20 @@ div {
 footer {
   width: 100%;
   color: var(--color-neutral-40);
-  background-color: #0d5803;
-  min-height: 100px;
+  background-color: #000000;
+  height: 200px;
   box-sizing: border-box;
+  display:flex;
+  align-items: center;
 } 
 
 
 footer>.content{
   display:flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 
 footer>.content>nav{
   width: 33.33%;
@@ -471,7 +482,7 @@ footer>.content>nav{
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-top: 10px;
+  margin-top: 25px;
   gap: 20%;
 }
 
@@ -480,6 +491,7 @@ footer>.content>nav{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 12px;
 }
 
 .footer-link{
@@ -505,6 +517,9 @@ footer>.content>nav{
   box-shadow: 0px 0px 10px 3px rgba(230, 76, 33, 0.781);
 }
 
+footer .inputdiv{
+  margin-top: 28px;
+}
 .inputdiv>ion-icon{
   color: #000;
 }

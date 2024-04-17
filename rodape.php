@@ -1,7 +1,7 @@
 <footer>
   <section class="content" > <!-- class="container" -->
     <nav id="footer_contacts">
-      <h4>Contatos:</h4>
+      <p>Contatos:</p>
       <div id="footer_social_media"> <!-- class="redes sociais" -->
         <a href="#" class="footer-link">
           <img src="img/icones/instagram.png" alt="" id="instagram">
@@ -18,8 +18,8 @@
     </nav>
 
     <nav>
+      <p>Links úteis:</p>
       <ul id="footer-list">
-        <li><h4>Links úteis:</h4></li>
         <li><a href="#" class="footer-link">Home</a></li>
         <li><a href="#" class="footer-link">Categorias</a></li>
       </ul>

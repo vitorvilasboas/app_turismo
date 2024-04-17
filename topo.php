@@ -4,7 +4,7 @@
       <h2>TESTE FSO</h2>
     </a>
     <div class="inputdiv">
-      <input type="text" placeholder="buscar" class="input">
+      <input type="text" placeholder="Quero Conhecer..." class="input">
       <ion-icon name="search-outline"></ion-icon>
     </div>
   </div>
