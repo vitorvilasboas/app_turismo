@@ -95,8 +95,8 @@ Lago Calumbi 2
 Lago do Projeto Rio Formoso, criado para reservar água.
 
 Rio Xavante
-Rio próximo da cidade com sua beleza natural
--->
+Rio próximo da cidade com sua beleza natural -->
+
 
 
 
@@ -118,8 +118,8 @@ Pousada Triuno
 Muito conforto e infraestrutura na área rural
 
 Toca do Tucunaré
-Hospedagem e Pesca exportiva
--->
+Hospedagem e Pesca exportiva -->
+
 
 <!-- LAZER
 
@@ -128,7 +128,7 @@ Ponto de encontro de pescadores com atendimento famoso em toda a região.
 
 Estádio Municipal
 
--->
+ -->
 
 
 <!-- SERVIÇOS 
@@ -139,11 +139,9 @@ Borracharia
 Limpeza
 Mercados
 Posto de combustiveis
+ -->
 
--->
 
-
-<!-- EVENTOS
+ <!-- EVENTOS
 Evento A
-Veniam illo atque placeat, totam, hic ipsam quidem repellendus velit doloribus neque
--->
+Veniam illo atque placeat, totam, hic ipsam quidem repellendus velit doloribus neque -->

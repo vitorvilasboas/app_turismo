@@ -39,8 +39,6 @@
           //   include 'contato.php';
           } else {
             include 'pontos.php';
-            include 'pontos.php';
-            include 'pontos.php';
           }
         } else {
           include 'categorias.php';

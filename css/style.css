@@ -253,6 +253,15 @@ main>.content {
 .content>h3 {
     font-size: 1.6em;
     color: #009092;
+    margin-bottom: 10px;
+}
+
+.content>p{
+  text-align: justify;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-indent: 30px;
+  line-height: 110%;
 }
 
 .contatos_ponto{
@@ -522,6 +531,7 @@ footer .inputdiv{
 }
 .inputdiv>ion-icon{
   color: #000;
+  cursor: pointer;
 }
 
 
