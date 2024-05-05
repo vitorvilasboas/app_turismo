@@ -43,9 +43,27 @@
 //   var menuBtn = document.querySelector('.menu-btn i');
 
 
-  const categoria = document.getElementsByClassName("categoria_img");
 
+let slideindex = 0
+const categoria = document.getElementsByClassName("categoria_img");
+fade()
 
-  console.log(categoria[0])
-
-  categoria.forEach((element) => element.display = "none");
+function fade(){
+ 
+  
+  slideindex++
+  if(slideindex > categoria.length){
+    slideindex = 1
+  }
+  for(  let i= 0; i < categoria.length; i++ ){
+    if(i % 2 === 0){categoria[ i ].style.display ="none"}
+    else{categoria[ i ].style.display ="block"}
+  }
+  if (slideindex % 2 ===0) {
+    for(  let i= 0; i < categoria.length; i++ ){
+      if(i % 2 === 0){categoria[ i ].style.display ="block"}
+      else{categoria[ i ].style.display ="none"}
+    }
+  }
+  setTimeout(fade,2000)
+}

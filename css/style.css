@@ -534,6 +534,14 @@ footer .inputdiv{
   cursor: pointer;
 }
 
+.categoria_img {
+  display: none; /* Inicia oculto */
+  opacity: 0; /* Inicia com opacidade 0 */
+  transition: opacity 1s ease-in-out; /* Transição suave de opacidade */
+}
+
+
+
 
 
 @media screen and (min-width: 300px) {
