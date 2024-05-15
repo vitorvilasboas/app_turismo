@@ -533,17 +533,26 @@ footer .inputdiv{
   color: #000;
   cursor: pointer;
 }
-
-.categoria_img {
-  display: none; /* Inicia oculto */
-  opacity: 0; /* Inicia com opacidade 0 */
-  transition: opacity 1s ease-in-out; /* Transição suave de opacidade */
+.fade{
+  opacity: 0;
+  animation: fade 8s;
 }
 
 
-
-
-
+@keyframes fade {
+  from{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  85%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 @media screen and (min-width: 300px) {
   body {
       font-size: 1.1em;

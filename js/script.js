@@ -65,5 +65,5 @@ function fade(){
       else{categoria[ i ].style.display ="none"}
     }
   }
-  setTimeout(fade,2000)
+  setTimeout(fade,8000)
 }
