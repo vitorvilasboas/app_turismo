@@ -5,7 +5,7 @@
   --color-neutral-0:  #030707;
   --color-neutral-10: #009092;
   --color-neutral-30: #ffffff;
-  --color-neutral-40: #f5f5f5;
+  --color-neutral-40: #000000; /*mudei a cor: fff*/
 }
 
 * {
@@ -61,11 +61,11 @@
 
 header {
     width: 100%;
-    background-color: #000000;
+    background-color: #1f4690;
     margin: auto;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0px 1px 20px 10px #00000050;
+    box-shadow: 0px 1px 20px 10px #000000;
     z-index: 200;
     margin: auto;
 }
@@ -462,7 +462,7 @@ div {
 footer {
   width: 100%;
   color: var(--color-neutral-40);
-  background-color: #000000;
+  background-color: #e4ae23;  /*cor rodape*/
   height: 200px;
   box-sizing: border-box;
   display:flex;
@@ -504,7 +504,7 @@ footer>.content>nav{
 }
 
 .footer-link{
-  color:#EEE;
+  color:rgb(0, 0, 0);  /*mudei a cor: FFF*/
   transition: 0.2s;
 }
 .footer-link:hover{

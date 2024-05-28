@@ -1,8 +1,8 @@
 <?php
   require_once "conexao.php";
 ?>
+<!-- <h3>Categorias</h3> -->
 
-<h3>Categorias</h3>
 <div class="categorias">
 
   <?php
@@ -24,7 +24,7 @@
           <a href="index.php?p=GASTRONOMIA"> <!-- <a href="./categorias/gastronomia.html"> -->
             <div class="categoria">
               <div class="categoria_img fade" style="background-image: url('<?php echo './img/categorias/' . strtolower($row['cat_tag']) . '/thumbs/imagem01.jpg';?>')"></div>
-              <div class="categoria_img fade" style="display: none ;background-image: url('<?php echo './img/categorias/' . strtolower($row['cat_tag']) . '/thumbs/imagem02.jpg';?>')"></div>
+                  
               
               <h3><?=strtoupper($row['cat_titulo'])?></h3>
               <p><?= $row['cat_descricao'] ?></p>
