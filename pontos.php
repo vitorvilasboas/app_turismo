@@ -23,8 +23,10 @@
               <a href="index.php?p=local"> <!-- index.php?p=strtolower($row_pts['loc_titulo']) -->
                 <div class="categoria">
                   <!-- <div class="categoria_img" id="<?php // echo strtolower($row_pts['loc_titulo']) . '_img';?>"></div> -->
-                  <div class="categoria_img" style="background-image: url('<?php echo './img/categorias/' . 
-                  strtolower($row['cat_tag']) . '/' . strtolower($row_pts['loc_tag']) . '/imagem01.png';?>')"></div>
+                  <div class="categoria_img fade" style="background-image: url('<?php echo './img/categorias/' . 
+                  strtolower($row['cat_tag']) . '/' . strtolower($row_pts['loc_tag']) . '/imagem01.jpg';?>')"></div>
+                  <div class="categoria_img fade" style="background-image: url('<?php echo './img/categorias/' . 
+                  strtolower($row['cat_tag']) . '/' . strtolower($row_pts['loc_tag']) . '/imagem02.jpg';?>')"></div>
                   <h3><?=strtoupper($row_pts['loc_titulo'])?></h3>
                   <p>
                     <?= $row_pts['loc_descricao'] ?>
@@ -95,8 +97,8 @@ Lago Calumbi 2
 Lago do Projeto Rio Formoso, criado para reservar água.
 
 Rio Xavante
-Rio próximo da cidade com sua beleza natural
--->
+Rio próximo da cidade com sua beleza natural -->
+
 
 
 
@@ -118,8 +120,8 @@ Pousada Triuno
 Muito conforto e infraestrutura na área rural
 
 Toca do Tucunaré
-Hospedagem e Pesca exportiva
--->
+Hospedagem e Pesca exportiva -->
+
 
 <!-- LAZER
 
@@ -128,7 +130,7 @@ Ponto de encontro de pescadores com atendimento famoso em toda a região.
 
 Estádio Municipal
 
--->
+ -->
 
 
 <!-- SERVIÇOS 
@@ -139,11 +141,9 @@ Borracharia
 Limpeza
 Mercados
 Posto de combustiveis
+ -->
 
--->
 
-
-<!-- EVENTOS
+ <!-- EVENTOS
 Evento A
-Veniam illo atque placeat, totam, hic ipsam quidem repellendus velit doloribus neque
--->
+Veniam illo atque placeat, totam, hic ipsam quidem repellendus velit doloribus neque -->

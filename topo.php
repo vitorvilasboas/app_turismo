@@ -1,9 +1,12 @@
 <header>
   <div class="content">
     <a href="index.php?p=home">
-      <h2>TESTE FSO</h2>
+      <h2>Turismo FSO</h2>
     </a>
-    <input type="text" placeholder="Procurar pontos turisticos">
+    <div class="inputdiv">
+      <input type="text" placeholder="Quero Conhecer..." class="input">
+      <ion-icon name="search-outline"></ion-icon>
+    </div>
   </div>
 </header>
 <div class="baner">
@@ -12,3 +15,5 @@
     <!-- <h5>Ilha do bananal</h5> -->
   </div>
 </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
